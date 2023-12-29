@@ -1,12 +1,11 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import { createRoot } from 'react-dom/client';
 import { Provider } from 'react-redux';
 import { createStore } from 'redux';
 import './index.css';
 import UserFormComponent from './components/UserFormComponet.jsx';
 import UserDisplayComponent from './components/UsersDisplayComponent.jsx';
-import userReducer from './reducer.js';
+import userReducer from './components/reducer/reducer.js';
 
 const store = createStore(userReducer);
 

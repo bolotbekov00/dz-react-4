@@ -1,5 +1,5 @@
 import { useDispatch } from 'react-redux';
-import { updateUser } from '../reducer.js'; // Исправьте расширение файла
+import { updateUser } from './reducer/reducer.js';
 import {useState} from "react";
 
 const UserFormComponent = () => {
